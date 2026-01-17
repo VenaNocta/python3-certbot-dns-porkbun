@@ -29,13 +29,13 @@ setup(
         "Topic :: System :: Systems Administration",
     ],
     packages=find_packages(),
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     install_requires=[
         "setuptools>=41.6.0",
         "certbot>=1.18.0,<6.0",
         "pkb_client>=2.0,<3.0",
         "dnspython>=2.0.0,<3.0",
-        "tldextract>=5.1.2,<6.0",
+        "tldextract>=3.4.4,<6.0",
     ],
     entry_points={
         "certbot.plugins": [
